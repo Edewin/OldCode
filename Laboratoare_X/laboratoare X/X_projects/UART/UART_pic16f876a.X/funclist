@@ -1,0 +1,12 @@
+_delay: CODE, 1455 0 50
+_main: CODE, 1779 0 122
+_init_UART: CODE, 1359 0 17
+___lmul: CODE, 1619 0 63
+__initialization: CODE, 2027 0 17
+___lwdiv: CODE, 1557 0 62
+_srand: CODE, 1348 0 11
+_rand: CODE, 1682 0 97
+___lwmod: CODE, 1505 0 52
+_itoa: CODE, 1413 0 42
+_utoa: CODE, 1901 0 126
+Total: 659

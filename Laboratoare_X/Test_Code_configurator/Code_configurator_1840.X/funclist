@@ -1,0 +1,9 @@
+_SYSTEM_Initializer: CODE, 2012 0 15
+_main: CODE, 1973 0 4
+_EPWM1_InitializerDefault: CODE, 2001 0 11
+_TMR2_InitializerDefault: CODE, 1993 0 8
+_PIN_MANAGER_Initializer: CODE, 2027 0 18
+__initialization: CODE, 2045 0 0
+_OSCILLATOR_InitializerDefault: CODE, 1985 0 8
+_ADC_InitializerDefault: CODE, 1977 0 8
+Total: 72

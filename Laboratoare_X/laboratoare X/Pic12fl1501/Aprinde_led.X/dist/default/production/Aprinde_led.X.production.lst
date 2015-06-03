@@ -1,0 +1,621 @@
+
+
+Microchip Technology PIC LITE Macro Assembler V1.21 build 54009 
+                                                                                               Fri Nov 29 00:19:09 2013
+
+Microchip Technology Omniscient Code Generator (Lite mode) build 54009
+     1                           	processor	12F1501
+     2                           	opt	pw 120
+     3                           	opt	lm
+     4                           	psect	text0,local,class=CODE,merge=1,delta=2
+     5                           	psect	cinit,global,class=CODE,merge=1,delta=2
+     6                           	psect	cstackCOMMON,global,class=COMMON,space=1,delta=1
+     7                           	psect	maintext,global,class=CODE,merge=1,split=1,delta=2
+     8                           	psect	text1,local,class=CODE,merge=1,delta=2
+     9                           	psect	text2,local,class=CODE,merge=1,delta=2
+    10                           	dabs	1,0x7E,2
+    11  0000                     	;# 
+    12  0001                     	;# 
+    13  0002                     	;# 
+    14  0003                     	;# 
+    15  0004                     	;# 
+    16  0005                     	;# 
+    17  0006                     	;# 
+    18  0007                     	;# 
+    19  0008                     	;# 
+    20  0009                     	;# 
+    21  000A                     	;# 
+    22  000B                     	;# 
+    23  000C                     	;# 
+    24  0011                     	;# 
+    25  0012                     	;# 
+    26  0013                     	;# 
+    27  0015                     	;# 
+    28  0016                     	;# 
+    29  0016                     	;# 
+    30  0017                     	;# 
+    31  0018                     	;# 
+    32  0019                     	;# 
+    33  001A                     	;# 
+    34  001B                     	;# 
+    35  001C                     	;# 
+    36  008C                     	;# 
+    37  0091                     	;# 
+    38  0092                     	;# 
+    39  0093                     	;# 
+    40  0095                     	;# 
+    41  0096                     	;# 
+    42  0097                     	;# 
+    43  0099                     	;# 
+    44  009A                     	;# 
+    45  009B                     	;# 
+    46  009B                     	;# 
+    47  009C                     	;# 
+    48  009D                     	;# 
+    49  009E                     	;# 
+    50  009F                     	;# 
+    51  010C                     	;# 
+    52  0111                     	;# 
+    53  0112                     	;# 
+    54  0115                     	;# 
+    55  0116                     	;# 
+    56  0117                     	;# 
+    57  0118                     	;# 
+    58  0119                     	;# 
+    59  011D                     	;# 
+    60  018C                     	;# 
+    61  0191                     	;# 
+    62  0191                     	;# 
+    63  0192                     	;# 
+    64  0193                     	;# 
+    65  0193                     	;# 
+    66  0194                     	;# 
+    67  0195                     	;# 
+    68  0196                     	;# 
+    69  0197                     	;# 
+    70  020C                     	;# 
+    71  0391                     	;# 
+    72  0392                     	;# 
+    73  0393                     	;# 
+    74  0498                     	;# 
+    75  0498                     	;# 
+    76  0499                     	;# 
+    77  049A                     	;# 
+    78  049B                     	;# 
+    79  049B                     	;# 
+    80  049C                     	;# 
+    81  049E                     	;# 
+    82  049F                     	;# 
+    83  0611                     	;# 
+    84  0612                     	;# 
+    85  0613                     	;# 
+    86  0613                     	;# 
+    87  0614                     	;# 
+    88  0615                     	;# 
+    89  0616                     	;# 
+    90  0616                     	;# 
+    91  0617                     	;# 
+    92  0618                     	;# 
+    93  0619                     	;# 
+    94  0619                     	;# 
+    95  061A                     	;# 
+    96  061B                     	;# 
+    97  061C                     	;# 
+    98  061C                     	;# 
+    99  0691                     	;# 
+   100  0692                     	;# 
+   101  0693                     	;# 
+   102  0694                     	;# 
+   103  0695                     	;# 
+   104  0F0F                     	;# 
+   105  0F10                     	;# 
+   106  0F11                     	;# 
+   107  0F12                     	;# 
+   108  0F13                     	;# 
+   109  0F14                     	;# 
+   110  0F15                     	;# 
+   111  0F16                     	;# 
+   112  0F17                     	;# 
+   113  0F18                     	;# 
+   114  0F19                     	;# 
+   115  0F1A                     	;# 
+   116  0F1B                     	;# 
+   117  0F1C                     	;# 
+   118  0F1D                     	;# 
+   119  0F1E                     	;# 
+   120  0F1F                     	;# 
+   121  0FE3                     	;# 
+   122  0FE4                     	;# 
+   123  0FE5                     	;# 
+   124  0FE6                     	;# 
+   125  0FE7                     	;# 
+   126  0FE8                     	;# 
+   127  0FE9                     	;# 
+   128  0FEA                     	;# 
+   129  0FEB                     	;# 
+   130  0FED                     	;# 
+   131  0FEE                     	;# 
+   132  0FEF                     	;# 
+   133  001B                     _PR2	set	27
+   134  001C                     _T2CONbits	set	28
+   135  001A                     _TMR2	set	26
+   136  009D                     _ADCON0bits	set	157
+   137  009E                     _ADCON1bits	set	158
+   138  009C                     _ADRESH	set	156
+   139  0099                     _OSCCON	set	153
+   140  008C                     _TRISAbits	set	140
+   141  04E9                     _ADGO	set	1257
+   142  018C                     _ANSELAbits	set	396
+   143  061C                     _PWM4CON	set	1564
+   144  061C                     _PWM4CONbits	set	1564
+   145  061B                     _PWM4DCH	set	1563
+   146  061A                     _PWM4DCL	set	1562
+   147                           
+   148                           	psect	text0
+   149  0000                     __ptext0:	
+   150                           
+   151                           ;psect for function _init_pwm
+   152                           ; #config settings
+   153  0000                     
+   154                           	psect	cinit
+   155  03FE                     start_initialization:	
+   156  03FE                     __initialization:	
+   157  03FE                     end_of_initialization:	
+   158                           ;End of C runtime variable initialization code
+   159                           
+   160  03FE                     __end_of__initialization:	
+   161  03FE  0020               	movlb	0
+   162  03FF  2BE0               	ljmp	_main	;jump to C main() function
+   163                           
+   164                           	psect	cstackCOMMON
+   165  0070                     __pcstackCOMMON:	
+   166  0070                     ?_init_pwm:	
+   167  0070                     ??_init_pwm:	
+   168                           ; 0 bytes @ 0x0
+   169                           
+   170  0070                     ?_init_adc:	
+   171                           ; 0 bytes @ 0x0
+   172                           
+   173  0070                     ??_init_adc:	
+   174                           ; 0 bytes @ 0x0
+   175                           
+   176  0070                     ?_main:	
+   177                           ; 0 bytes @ 0x0
+   178                           
+   179                           
+   180                           ; 0 bytes @ 0x0
+   181  0070                     	ds	1
+   182  0071                     ??_main:	
+   183                           
+   184                           ; 0 bytes @ 0x1
+   185  0071                     	ds	2
+   186  0073                     main@i:	
+   187                           
+   188                           ; 1 bytes @ 0x3
+   189  0073                     	ds	1
+   190                           
+   191                           	psect	maintext
+   192  03E0                     __pmaintext:	
+   193 ;;
+   194 ;;Main: autosize = 0, tempsize = 2, incstack = 0, save=0
+   195 ;;
+   196 ;; *************** function _main *****************
+   197 ;; Defined at:
+   198 ;;		line 22 in file "main.c"
+   199 ;; Parameters:    Size  Location     Type
+   200 ;;		None
+   201 ;; Auto vars:     Size  Location     Type
+   202 ;;  i               1    3[COMMON] unsigned char 
+   203 ;; Return value:  Size  Location     Type
+   204 ;;		None               void
+   205 ;; Registers used:
+   206 ;;		wreg, status,2, status,0, pclath, cstack
+   207 ;; Tracked objects:
+   208 ;;		On entry : 17F/0
+   209 ;;		On exit  : 0/0
+   210 ;;		Unchanged: 0/0
+   211 ;; Data sizes:     COMMON   BANK0
+   212 ;;      Params:         0       0
+   213 ;;      Locals:         1       0
+   214 ;;      Temps:          2       0
+   215 ;;      Totals:         3       0
+   216 ;;Total ram usage:        3 bytes
+   217 ;; Hardware stack levels required when called:    1
+   218 ;; This function calls:
+   219 ;;		_init_pwm
+   220 ;;		_init_adc
+   221 ;; This function is called by:
+   222 ;;		Startup code after reset
+   223 ;; This function uses a non-reentrant model
+   224 ;;
+   225                           
+   226                           
+   227                           ;psect for function _main
+   228  03E0                     _main:	
+   229                           
+   230                           ;main.c: 23: OSCCON=0b01110011;
+   231                           
+   232                           ;incstack = 0
+   233                           ; Regs used in _main: [wreg+status,2+status,0+pclath+cstack]
+   234  03E0  3073               	movlw	115
+   235  03E1  0021               	movlb	1	; select bank1
+   236  03E2  0099               	movwf	25	;volatile
+   237                           
+   238                           ;main.c: 24: init_pwm();
+   239  03E3  23B0               	fcall	_init_pwm
+   240                           
+   241                           ;main.c: 25: init_adc();
+   242  03E4  23C7               	fcall	_init_adc
+   243                           
+   244                           ;main.c: 26: unsigned char i;
+   245                           ;main.c: 27: i=0;
+   246  03E5  01F3               	clrf	main@i
+   247  03E6                     l463:	
+   248                           ;main.c: 28: for(;;)
+   249                           
+   250                           
+   251                           ;main.c: 29: {
+   252                           ;main.c: 31: if(ADGO==0)
+   253  03E6  0021               	movlb	1	; select bank1
+   254  03E7  189D               	btfsc	29,1	;volatile
+   255  03E8  2BE6               	goto	l463
+   256                           
+   257                           ;main.c: 32: {
+   258                           ;main.c: 33: i=ADRESH;
+   259  03E9  081C               	movf	28,w	;volatile
+   260  03EA  00F1               	movwf	??_main
+   261  03EB  0871               	movf	??_main,w
+   262  03EC  00F3               	movwf	main@i
+   263                           
+   264                           ;main.c: 34: i=i*8;
+   265  03ED  0873               	movf	main@i,w
+   266  03EE  00F1               	movwf	??_main
+   267  03EF  3002               	movlw	2
+   268  03F0                     u25:	
+   269  03F0  35F1               	lslf	??_main,f
+   270  03F1  3EFF               	addlw	-1
+   271  03F2  1D03               	skipz
+   272  03F3  2BF0               	goto	u25
+   273  03F4  3571               	lslf	??_main,w
+   274  03F5  00F2               	movwf	??_main+1
+   275  03F6  0872               	movf	??_main+1,w
+   276  03F7  00F3               	movwf	main@i
+   277                           
+   278                           ;main.c: 35: PWM4DCH=i;
+   279  03F8  0873               	movf	main@i,w
+   280  03F9  002C               	movlb	12	; select bank12
+   281  03FA  009B               	movwf	27	;volatile
+   282                           
+   283                           ;main.c: 36: ADGO=1;
+   284  03FB  0021               	movlb	1	; select bank1
+   285  03FC  149D               	bsf	29,1	;volatile
+   286                           
+   287                           ;main.c: 38: }
+   288                           ;main.c: 59: }
+   289  03FD  2BE6               	goto	l463
+   290  03FE                     __end_of_main:	
+   291                           
+   292                           	psect	text1
+   293  03C7                     __ptext1:	
+   294 ;; *************** function _init_adc *****************
+   295 ;; Defined at:
+   296 ;;		line 78 in file "main.c"
+   297 ;; Parameters:    Size  Location     Type
+   298 ;;		None
+   299 ;; Auto vars:     Size  Location     Type
+   300 ;;		None
+   301 ;; Return value:  Size  Location     Type
+   302 ;;		None               void
+   303 ;; Registers used:
+   304 ;;		wreg, status,2, status,0
+   305 ;; Tracked objects:
+   306 ;;		On entry : 0/0
+   307 ;;		On exit  : 0/0
+   308 ;;		Unchanged: 0/0
+   309 ;; Data sizes:     COMMON   BANK0
+   310 ;;      Params:         0       0
+   311 ;;      Locals:         0       0
+   312 ;;      Temps:          1       0
+   313 ;;      Totals:         1       0
+   314 ;;Total ram usage:        1 bytes
+   315 ;; Hardware stack levels used:    1
+   316 ;; This function calls:
+   317 ;;		Nothing
+   318 ;; This function is called by:
+   319 ;;		_main
+   320 ;; This function uses a non-reentrant model
+   321 ;;
+   322                           
+   323                           
+   324                           ;psect for function _init_adc
+   325  03C7                     _init_adc:	
+   326                           
+   327                           ;main.c: 79: TRISAbits.TRISA4=1;
+   328                           
+   329                           ;incstack = 0
+   330                           ; Regs used in _init_adc: [wreg+status,2+status,0]
+   331  03C7  0021               	movlb	1	; select bank1
+   332  03C8  160C               	bsf	12,4	;volatile
+   333                           
+   334                           ;main.c: 80: ANSELAbits.ANSA4=1;
+   335  03C9  0023               	movlb	3	; select bank3
+   336  03CA  160C               	bsf	12,4	;volatile
+   337                           
+   338                           ;main.c: 81: ADCON1bits.ADCS=011;
+   339  03CB  0021               	movlb	1	; select bank1
+   340  03CC  081E               	movf	30,w	;volatile
+   341  03CD  398F               	andlw	-113
+   342  03CE  3810               	iorlw	16
+   343  03CF  009E               	movwf	30	;volatile
+   344                           
+   345                           ;main.c: 82: ADCON1bits.ADFM=0;
+   346  03D0  139E               	bcf	30,7	;volatile
+   347                           
+   348                           ;main.c: 83: ADCON1bits.ADPREF=0;
+   349  03D1  30FC               	movlw	-4
+   350  03D2  059E               	andwf	30,f	;volatile
+   351                           
+   352                           ;main.c: 84: ADCON0bits.CHS=3;
+   353  03D3  081D               	movf	29,w	;volatile
+   354  03D4  3983               	andlw	-125
+   355  03D5  380C               	iorlw	12
+   356  03D6  009D               	movwf	29	;volatile
+   357                           
+   358                           ;main.c: 85: ADCON0bits.ADON=1;
+   359  03D7  141D               	bsf	29,0	;volatile
+   360                           
+   361                           ;main.c: 86: _delay(20);
+   362  03D8  3006               	movlw	6
+   363  03D9  00F0               	movwf	??_init_adc
+   364  03DA                     u37:	
+   365  03DA  0BF0               	decfsz	??_init_adc,f
+   366  03DB  2BDA               	goto	u37
+   367  03DC  0000               	nop
+   368                           
+   369                           ;main.c: 87: ADCON0bits.ADGO=1;
+   370  03DD  0021               	movlb	1	; select bank1
+   371  03DE  149D               	bsf	29,1	;volatile
+   372  03DF  0008               	return
+   373  03E0                     __end_of_init_adc:	
+   374                           
+   375                           	psect	text2
+   376  03B0                     __ptext2:	
+   377 ;; *************** function _init_pwm *****************
+   378 ;; Defined at:
+   379 ;;		line 62 in file "main.c"
+   380 ;; Parameters:    Size  Location     Type
+   381 ;;		None
+   382 ;; Auto vars:     Size  Location     Type
+   383 ;;		None
+   384 ;; Return value:  Size  Location     Type
+   385 ;;		None               void
+   386 ;; Registers used:
+   387 ;;		wreg, status,2, status,0
+   388 ;; Tracked objects:
+   389 ;;		On entry : 0/0
+   390 ;;		On exit  : 0/0
+   391 ;;		Unchanged: 0/0
+   392 ;; Data sizes:     COMMON   BANK0
+   393 ;;      Params:         0       0
+   394 ;;      Locals:         0       0
+   395 ;;      Temps:          0       0
+   396 ;;      Totals:         0       0
+   397 ;;Total ram usage:        0 bytes
+   398 ;; Hardware stack levels used:    1
+   399 ;; This function calls:
+   400 ;;		Nothing
+   401 ;; This function is called by:
+   402 ;;		_main
+   403 ;; This function uses a non-reentrant model
+   404 ;;
+   405                           
+   406                           
+   407                           ;psect for function _init_pwm
+   408  03B0                     _init_pwm:	
+   409                           
+   410                           ;main.c: 63: TRISAbits.TRISA5=1;
+   411                           
+   412                           ;incstack = 0
+   413                           ; Regs used in _init_pwm: [wreg+status,2+status,0]
+   414  03B0  0021               	movlb	1	; select bank1
+   415  03B1  168C               	bsf	12,5	;volatile
+   416                           
+   417                           ;main.c: 64: PWM4CON=0;
+   418  03B2  002C               	movlb	12	; select bank12
+   419  03B3  019C               	clrf	28	;volatile
+   420                           
+   421                           ;main.c: 65: TMR2=0;
+   422  03B4  0020               	movlb	0	; select bank0
+   423  03B5  019A               	clrf	26	;volatile
+   424                           
+   425                           ;main.c: 66: PR2=0x65;
+   426  03B6  3065               	movlw	101
+   427  03B7  009B               	movwf	27	;volatile
+   428                           
+   429                           ;main.c: 67: PWM4DCH=0;
+   430  03B8  002C               	movlb	12	; select bank12
+   431  03B9  019B               	clrf	27	;volatile
+   432                           
+   433                           ;main.c: 68: PWM4DCL=0;
+   434  03BA  019A               	clrf	26	;volatile
+   435                           
+   436                           ;main.c: 69: T2CONbits.T2CKPS=0;
+   437  03BB  30FC               	movlw	-4
+   438  03BC  0020               	movlb	0	; select bank0
+   439  03BD  059C               	andwf	28,f	;volatile
+   440                           
+   441                           ;main.c: 70: T2CONbits.TMR2ON=1;
+   442  03BE  151C               	bsf	28,2	;volatile
+   443                           
+   444                           ;main.c: 71: TRISAbits.TRISA5=0;
+   445  03BF  0021               	movlb	1	; select bank1
+   446  03C0  128C               	bcf	12,5	;volatile
+   447                           
+   448                           ;main.c: 72: PWM4CONbits.PWM4POL=0;
+   449  03C1  002C               	movlb	12	; select bank12
+   450  03C2  121C               	bcf	28,4	;volatile
+   451                           
+   452                           ;main.c: 73: PWM4CONbits.PWM4OUT=1;
+   453  03C3  169C               	bsf	28,5	;volatile
+   454                           
+   455                           ;main.c: 74: PWM4CONbits.PWM4OE=1;
+   456  03C4  171C               	bsf	28,6	;volatile
+   457                           
+   458                           ;main.c: 75: PWM4CONbits.PWM4EN=1;
+   459  03C5  179C               	bsf	28,7	;volatile
+   460  03C6  0008               	return
+   461  03C7                     __end_of_init_pwm:	
+   462  007E                     btemp	set	126	;btemp
+   463  007E                     wtemp0	set	126
+
+
+Data Sizes:
+    Strings     0
+    Constant    0
+    Data        0
+    BSS         0
+    Persistent  0
+    Stack       0
+
+Auto Spaces:
+    Space          Size  Autos    Used
+    COMMON           14      4       4
+    BANK0            48      0       0
+
+Pointer List with Targets:
+
+    None.
+
+Critical Paths under _main in COMMON
+
+    _main->_init_adc
+
+Critical Paths under _main in BANK0
+
+    None.
+
+Call Graph Tables:
+
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (0) _main                                                 3     3      0      30
+                                              1 COMMON     3     3      0
+                           _init_pwm
+                           _init_adc
+ ---------------------------------------------------------------------------------
+ (1) _init_adc                                             1     1      0       0
+                                              0 COMMON     1     1      0
+ ---------------------------------------------------------------------------------
+ (1) _init_pwm                                             0     0      0       0
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 1
+ ---------------------------------------------------------------------------------
+
+ Call Graph Graphs:
+
+ _main (ROOT)
+   _init_pwm
+   _init_adc
+
+ Address spaces:
+Name               Size   Autos  Total    Cost      Usage
+BIGRAM_1            10      0       0       0        0.0%
+NULL                 0      0       0       0        0.0%
+CODE                 0      0       0       0        0.0%
+BIGRAM              30      0       0       1        0.0%
+BITSFR0              0      0       0       1        0.0%
+SFR0                 0      0       0       1        0.0%
+BITCOMMON            E      0       0       2        0.0%
+BITSFR1              0      0       0       2        0.0%
+SFR1                 0      0       0       2        0.0%
+COMMON               E      4       4       3       28.6%
+BITSFR2              0      0       0       3        0.0%
+SFR2                 0      0       0       3        0.0%
+BITSFR3              0      0       0       4        0.0%
+SFR3                 0      0       0       4        0.0%
+STACK                0      0       1       4        0.0%
+BITBANK0            30      0       0       5        0.0%
+BITSFR4              0      0       0       5        0.0%
+SFR4                 0      0       0       5        0.0%
+BANK0               30      0       0       6        0.0%
+BITSFR5              0      0       0       6        0.0%
+SFR5                 0      0       0       6        0.0%
+BITSFR6              0      0       0       7        0.0%
+SFR6                 0      0       0       7        0.0%
+ABS                  0      0       0       7        0.0%
+BITSFR7              0      0       0       8        0.0%
+SFR7                 0      0       0       8        0.0%
+DATA                 0      0       0       8        0.0%
+BITSFR8              0      0       0       9        0.0%
+SFR8                 0      0       0       9        0.0%
+BITSFR9              0      0       0      10        0.0%
+SFR9                 0      0       0      10        0.0%
+BITSFR10             0      0       0      11        0.0%
+SFR10                0      0       0      11        0.0%
+BITSFR11             0      0       0      12        0.0%
+SFR11                0      0       0      12        0.0%
+BITSFR12             0      0       0      13        0.0%
+SFR12                0      0       0      13        0.0%
+BITSFR13             0      0       0      14        0.0%
+SFR13                0      0       0      14        0.0%
+BITSFR14             0      0       0      15        0.0%
+SFR14                0      0       0      15        0.0%
+BITSFR15             0      0       0      16        0.0%
+SFR15                0      0       0      16        0.0%
+BITSFR16             0      0       0      17        0.0%
+SFR16                0      0       0      17        0.0%
+BITSFR17             0      0       0      18        0.0%
+SFR17                0      0       0      18        0.0%
+BITSFR18             0      0       0      19        0.0%
+SFR18                0      0       0      19        0.0%
+BITSFR19             0      0       0      20        0.0%
+SFR19                0      0       0      20        0.0%
+BITSFR20             0      0       0      21        0.0%
+SFR20                0      0       0      21        0.0%
+BITSFR21             0      0       0      22        0.0%
+SFR21                0      0       0      22        0.0%
+BITSFR22             0      0       0      23        0.0%
+SFR22                0      0       0      23        0.0%
+BITSFR23             0      0       0      24        0.0%
+SFR23                0      0       0      24        0.0%
+BITSFR24             0      0       0      25        0.0%
+SFR24                0      0       0      25        0.0%
+BITSFR25             0      0       0      26        0.0%
+SFR25                0      0       0      26        0.0%
+BITSFR26             0      0       0      27        0.0%
+SFR26                0      0       0      27        0.0%
+BITSFR27             0      0       0      28        0.0%
+SFR27                0      0       0      28        0.0%
+BITSFR28             0      0       0      29        0.0%
+SFR28                0      0       0      29        0.0%
+BITSFR29             0      0       0      30        0.0%
+SFR29                0      0       0      30        0.0%
+BITSFR30             0      0       0      31        0.0%
+SFR30                0      0       0      31        0.0%
+BITSFR31             0      0       0      32        0.0%
+SFR31                0      0       0      32        0.0%
+
+
+Microchip Technology PIC Macro Assembler V1.21 build 54009 
+Symbol Table                                                                                   Fri Nov 29 00:19:09 2013
+
+            __CFG_CP$OFF 0000                       u25 03F0                       u37 03DA  
+                    l463 03E6                      _PR2 001B             __CFG_BORV$LO 0000  
+           __CFG_LVP$OFF 0000                     _ADGO 04E9                     _TMR2 001A  
+           __CFG_WRT$OFF 0000                     _main 03E0                     btemp 007E  
+                   start 0001            __CFG_MCLRE$ON 0000                    ?_main 0070  
+          __CFG_WDTE$OFF 0000                    main@i 0073           __CFG_BOREN$OFF 0000  
+                  wtemp0 007E          __initialization 03FE             __end_of_main 03FE  
+         __CFG_LPBOR$OFF 0000                   ??_main 0071                   _ADRESH 009C  
+                 _OSCCON 0099           __CFG_PWRTE$OFF 0000           __CFG_STVREN$ON 0000  
+       __end_of_init_adc 03E0         __end_of_init_pwm 03C7  __end_of__initialization 03FE  
+         __pcstackCOMMON 0070               __pmaintext 03E0                  _PWM4DCH 061B  
+                _PWM4DCL 061A                  _PWM4CON 061C                ?_init_adc 0070  
+              ?_init_pwm 0070                  __ptext0 0000                  __ptext1 03C7  
+                __ptext2 03B0                _T2CONbits 001C     end_of_initialization 03FE  
+             ??_init_adc 0070               ??_init_pwm 0070         __CFG_FOSC$INTOSC 0000  
+              _TRISAbits 008C      start_initialization 03FE        __size_of_init_adc 0019  
+      __size_of_init_pwm 0017               _ADCON0bits 009D               _ADCON1bits 009E  
+             _ANSELAbits 018C                 _init_adc 03C7            __size_of_main 001E  
+               _init_pwm 03B0              _PWM4CONbits 061C        __CFG_CLKOUTEN$OFF 0000  

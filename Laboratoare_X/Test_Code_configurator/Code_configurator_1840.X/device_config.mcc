@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration device="PIC12F1840" mcc_version="v1.1">
+    <managers>
+        <manager generated="true" name="Pin Manager">
+            <setting name="TXCKSEL" option="RA0"/>
+            <setting name="RXDTSEL" option="RA1"/>
+            <setting name="CCP1SEL" option="RA5"/>
+            <setting name="SDOSEL" option="RA0"/>
+            <setting name="P1BSEL" option="RA0"/>
+            <setting name="SSSEL" option="RA3"/>
+            <setting name="T1GSEL" option="RA4"/>
+            <setting name="package" option="PDIP8"/>
+            <resource customName="channel_AN3" digital="false" direction="true" function="AN3" ioc="0" name="RA4" start="false" type="pin" wpu="false"/>
+            <file checksum="3069703915" modified="false" name="pin_manager.c" path="MCC_Generated_Files/pin_manager.c"/>
+            <file checksum="2543966639" modified="false" name="pin_manager.h" path="MCC_Generated_Files/pin_manager.h"/>
+        </manager>
+        <manager generated="true" name="System">
+            <initializer comment="" name="InitializerDefault">
+                <setting name="SPLLEN" option="disabled"/>
+                <setting name="SCS" option="FOSC"/>
+                <setting name="IRCF" option="500KHz_MF"/>
+                <setting name="OSTS" option="intosc"/>
+                <setting name="HFIOFR" option="disabled"/>
+                <setting name="HFIOFS" option="not0.5percent_acc"/>
+                <setting name="PLLR" option="disabled"/>
+                <setting name="MFIOFR" option="disabled"/>
+                <setting name="T1OSCR" option="disabled"/>
+                <setting name="LFIOFR" option="disabled"/>
+                <setting name="HFIOFL" option="not2percent_acc"/>
+                <setting name="TUN" option="0x0"/>
+                <additionalSetting name="pllMultiplier" option=""/>
+                <additionalSetting name="extclk" option="1.0 MHz"/>
+            </initializer>
+            <setting name="FOSC" option="INTOSC"/>
+            <setting name="WDTE" option="OFF"/>
+            <setting name="PWRTE" option="OFF"/>
+            <setting name="MCLRE" option="ON"/>
+            <setting name="CP" option="OFF"/>
+            <setting name="CPD" option="OFF"/>
+            <setting name="BOREN" option="ON"/>
+            <setting name="CLKOUTEN" option="OFF"/>
+            <setting name="IESO" option="ON"/>
+            <setting name="FCMEN" option="ON"/>
+            <setting name="WRT" option="OFF"/>
+            <setting name="PLLEN" option="ON"/>
+            <setting name="STVREN" option="ON"/>
+            <setting name="BORV" option="LO"/>
+            <setting name="LVP" option="OFF"/>
+            <file checksum="3815180637" modified="false" name="mcc.c" path="MCC_Generated_Files/mcc.c"/>
+            <file checksum="2970443046" modified="false" name="mcc.h" path="MCC_Generated_Files/mcc.h"/>
+        </manager>
+    </managers>
+    <modules>
+        <module generated="true" mode="Timer" name="TMR2" type="tmr_2">
+            <initializer comment="" name="InitializerDefault">
+                <setting name="TMR2ON" option="off"/>
+                <setting name="T2CKPS" option="1:64"/>
+                <setting name="T2OUTPS" option="1:16"/>
+                <setting name="PR2" option="101"/>
+                <setting name="TMR2" option="0"/>
+                <additionalSetting name="T2CKPS" option="1:64"/>
+                <additionalSetting name="maxPeriodChanged" option="2.04 ms"/>
+                <additionalSetting name="T2OUTPS" option="1:16"/>
+                <additionalSetting name="minPeriodChanged" option="0.0 ns"/>
+                <additionalSetting name="period" option="827.392 ms"/>
+            </initializer>
+            <setting name="TMRI" option="false"/>
+            <setting name="ticker" option="1"/>
+            <file checksum="3293016054" modified="false" name="tmr2.c" path="MCC_Generated_Files/tmr2.c"/>
+            <file checksum="3938246405" modified="false" name="tmr2.h" path="MCC_Generated_Files/tmr2.h"/>
+        </module>
+        <module generated="true" mode="Enhanced PWM" name="ECCP" type="eccp">
+            <initializer comment="" name="InitializerDefault">
+                <setting name="STR1A" option="P1A_to_port"/>
+                <setting name="STR1C" option="P1C_to_port"/>
+                <setting name="STR1B" option="P1B_to_port"/>
+                <setting name="STR1D" option="P1D_to_port"/>
+                <setting name="STR1SYNC" option="start_at_begin"/>
+                <setting name="P1RSEN" option="automatic_restart"/>
+                <setting name="P1DC" option="0"/>
+                <setting name="PSS1BD" option="P1BP1D_0"/>
+                <setting name="CCP1AS" option="disabled"/>
+                <setting name="CCP1ASE" option="operating"/>
+                <setting name="PSS1AC" option="P1AP1C_0"/>
+                <setting name="P1M" option="single"/>
+                <setting name="CCP1M" option="P1AP1Chi_P1BP1Dhi"/>
+                <setting name="DC1B" option="48"/>
+                <setting name="CCPR1L" option="50"/>
+                <setting name="CCPR1H" option="0x0"/>
+                <additionalSetting name="ccpr" option="203"/>
+                <additionalSetting name="timermodule" option="TMR2"/>
+                <additionalSetting name="time" option="0.00000 ns"/>
+                <additionalSetting name="pwmperiod" option="52.2240 ms"/>
+                <additionalSetting name="duty" option="50"/>
+                <additionalSetting name="freq" option="19.1483 Hz"/>
+                <additionalSetting name="resolution" option="8"/>
+                <additionalSetting name="singlesteering" option="steeringenabled"/>
+                <additionalSetting name="timersel" option="timerselabsent"/>
+            </initializer>
+            <file checksum="2221349409" modified="false" name="epwm1.c" path="MCC_Generated_Files/epwm1.c"/>
+            <file checksum="1078297971" modified="false" name="epwm1.h" path="MCC_Generated_Files/epwm1.h"/>
+        </module>
+        <module generated="true" mode="ADC" name="ADC" type="adc_sarcore_10bit">
+            <initializer comment="" name="InitializerDefault">
+                <setting name="GO_nDONE" option="stop"/>
+                <setting name="ADON" option="enabled"/>
+                <setting name="CHS" option="AN0"/>
+                <setting name="ADPREF" option="chip_VDD"/>
+                <setting name="ADFM" option="left"/>
+                <setting name="ADCS" option="FOSC/16"/>
+                <setting name="ADRESL" option="0x0"/>
+                <setting name="ADRESH" option="0x0"/>
+            </initializer>
+            <setting name="ADI" option="false"/>
+            <resource customName="channel_AN3" function="AN3" name="RA4" type="pin"/>
+            <file checksum="1857683610" modified="false" name="adc.c" path="MCC_Generated_Files/adc.c"/>
+            <file checksum="3408392067" modified="false" name="adc.h" path="MCC_Generated_Files/adc.h"/>
+        </module>
+    </modules>
+</configuration>

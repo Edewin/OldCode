@@ -1,0 +1,9 @@
+___awdiv: CODE, 1833 0 91
+_init: CODE, 1755 0 10
+_delay: CODE, 1803 0 30
+_main: CODE, 1924 0 122
+_Read_ad1: CODE, 1745 0 10
+__initialization: CODE, 2046 0 0
+_init_ad: CODE, 1783 0 20
+_init_pwm: CODE, 1765 0 18
+Total: 301

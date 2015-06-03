@@ -1,0 +1,6 @@
+_main: CODE, 1873 0 35
+_DelayMs: CODE, 1851 0 22
+_motor_dreapta: CODE, 1908 0 68
+__initialization: CODE, 2044 0 0
+_motor_stanga: CODE, 1976 0 68
+Total: 193

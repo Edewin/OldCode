@@ -1,0 +1,5 @@
+_init: CODE, 1983 0 14
+_main: CODE, 1997 0 22
+__initialization: CODE, 2045 0 0
+_delay_ms: CODE, 2019 0 26
+Total: 62

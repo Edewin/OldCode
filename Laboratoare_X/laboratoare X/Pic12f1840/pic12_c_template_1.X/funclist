@@ -1,0 +1,6 @@
+_ConfigureOscillator: CODE, 24 0 1
+_main: CODE, 16 0 7
+_InitApp: CODE, 23 0 1
+__initialization: CODE, 13 0 0
+_isr: CODE, 4 0 7
+Total: 16

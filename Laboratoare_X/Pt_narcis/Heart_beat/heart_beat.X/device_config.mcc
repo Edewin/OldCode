@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration device="PIC12F1840" mcc_version="v1.1">
+    <managers>
+        <manager generated="true" name="Pin Manager">
+            <setting name="TXCKSEL" option="RA0"/>
+            <setting name="RXDTSEL" option="RA1"/>
+            <setting name="CCP1SEL" option="RA2"/>
+            <setting name="SDOSEL" option="RA0"/>
+            <setting name="P1BSEL" option="RA0"/>
+            <setting name="SSSEL" option="RA3"/>
+            <setting name="T1GSEL" option="RA4"/>
+            <setting name="package" option="PDIP8"/>
+            <file checksum="3069376234" modified="false" name="pin_manager.c" path="MCC_Generated_Files/pin_manager.c"/>
+            <file checksum="3370745549" modified="false" name="pin_manager.h" path="MCC_Generated_Files/pin_manager.h"/>
+        </manager>
+        <manager generated="true" name="System">
+            <initializer comment="" name="InitializerDefault">
+                <setting name="SPLLEN" option="enabled"/>
+                <setting name="SCS" option="INTOSC"/>
+                <setting name="IRCF" option="8MHz_HF"/>
+                <setting name="OSTS" option="intosc"/>
+                <setting name="HFIOFR" option="disabled"/>
+                <setting name="HFIOFS" option="not0.5percent_acc"/>
+                <setting name="PLLR" option="disabled"/>
+                <setting name="MFIOFR" option="disabled"/>
+                <setting name="T1OSCR" option="disabled"/>
+                <setting name="LFIOFR" option="disabled"/>
+                <setting name="HFIOFL" option="not2percent_acc"/>
+                <setting name="TUN" option="0x0"/>
+                <additionalSetting name="pllMultiplier" option=""/>
+                <additionalSetting name="extclk" option="1.0 MHz"/>
+            </initializer>
+            <setting name="FOSC" option="INTOSC"/>
+            <setting name="WDTE" option="OFF"/>
+            <setting name="PWRTE" option="OFF"/>
+            <setting name="MCLRE" option="ON"/>
+            <setting name="CP" option="OFF"/>
+            <setting name="CPD" option="OFF"/>
+            <setting name="BOREN" option="ON"/>
+            <setting name="CLKOUTEN" option="OFF"/>
+            <setting name="IESO" option="ON"/>
+            <setting name="FCMEN" option="ON"/>
+            <setting name="WRT" option="OFF"/>
+            <setting name="PLLEN" option="OFF"/>
+            <setting name="STVREN" option="ON"/>
+            <setting name="BORV" option="LO"/>
+            <setting name="LVP" option="OFF"/>
+            <file checksum="260889395" modified="false" name="mcc.c" path="MCC_Generated_Files/mcc.c"/>
+            <file checksum="950946977" modified="false" name="mcc.h" path="MCC_Generated_Files/mcc.h"/>
+        </manager>
+    </managers>
+</configuration>

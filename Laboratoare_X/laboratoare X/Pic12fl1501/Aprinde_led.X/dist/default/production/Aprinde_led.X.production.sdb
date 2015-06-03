@@ -1,0 +1,189 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1501 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"34 D:\Program Files\Microchip\xc8\v1.21\sources\pic\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"43 D:\Program Files\Microchip\xc8\v1.21\sources\pic\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"38 D:\Program Files\Microchip\xc8\v1.21\sources\pic\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"33 D:\Program Files\Microchip\xc8\v1.21\sources\pic\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"3 D:\Program Files\Microchip\xc8\v1.21\sources\pic\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"63 D:\Program Files\Microchip\xc8\v1.21\sources\pic\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"87 D:\Program Files\Microchip\xc8\v1.21\sources\pic\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"50 D:\Program Files\Microchip\xc8\v1.21\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"52 D:\Program Files\Microchip\xc8\v1.21\sources\pic\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"16 D:\Program Files\Microchip\xc8\v1.21\sources\pic\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"17 D:\Program Files\Microchip\xc8\v1.21\sources\pic\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"45 D:\Program Files\Microchip\xc8\v1.21\sources\pic\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"28 D:\Program Files\Microchip\xc8\v1.21\sources\pic\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"36 D:\Program Files\Microchip\xc8\v1.21\sources\pic\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"3 D:\Program Files\Microchip\xc8\v1.21\sources\pic\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"31 D:\Program Files\Microchip\xc8\v1.21\sources\pic\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.21\sources\pic\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"29 D:\Program Files\Microchip\xc8\v1.21\sources\pic\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"3 D:\Program Files\Microchip\xc8\v1.21\sources\pic\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"3 D:\Program Files\Microchip\xc8\v1.21\sources\pic\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"22 D:\laboratoare X\Pic12fl1501\Aprinde_led.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"62
+[v _init_pwm init_pwm `(v  1 e 0 0 ]
+"78
+[v _init_adc init_adc `(v  1 e 0 0 ]
+"746 D:\Program Files\Microchip\xc8\v1.21\include\pic12f1501.h
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"765
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+[s S52 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"805
+[s S56 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S64 . 1 `S52 1 . 1 0 `S56 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES64  1 e 1 @28 ]
+[s S31 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"869
+[u S38 . 1 `S31 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES38  1 e 1 @140 ]
+"1189
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1311
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+[s S135 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+"1355
+[s S139 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S147 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S150 . 1 `S135 1 . 1 0 `S139 1 . 1 0 `S147 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES150  1 e 1 @157 ]
+[s S115 . 1 `uc 1 ADPREF 1 0 :2:0 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS 1 0 :3:4 
+`uc 1 ADFM 1 0 :1:7 
+]
+"1426
+[s S120 . 1 `uc 1 ADPREF0 1 0 :1:0 
+`uc 1 ADPREF1 1 0 :1:1 
+]
+[u S123 . 1 `S115 1 . 1 0 `S120 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES123  1 e 1 @158 ]
+[s S95 . 1 `uc 1 ANSA0 1 0 :1:0 
+`uc 1 ANSA1 1 0 :1:1 
+`uc 1 ANSA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ANSA4 1 0 :1:4 
+]
+"1952
+[s S101 . 1 `uc 1 ANSELA 1 0 :6:0 
+]
+[u S103 . 1 `S95 1 . 1 0 `S101 1 . 1 0 ]
+[v _ANSELAbits ANSELAbits `VES103  1 e 1 @396 ]
+"3326
+[v _PWM4DCL PWM4DCL `VEuc  1 e 1 @1562 ]
+"3361
+[v _PWM4DCH PWM4DCH `VEuc  1 e 1 @1563 ]
+"3430
+[v _PWM4CON PWM4CON `VEuc  1 e 1 @1564 ]
+[s S80 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 PWM4POL 1 0 :1:4 
+`uc 1 PWM4OUT 1 0 :1:5 
+`uc 1 PWM4OE 1 0 :1:6 
+`uc 1 PWM4EN 1 0 :1:7 
+]
+"3449
+[u S86 . 1 `S80 1 . 1 0 ]
+[v _PWM4CONbits PWM4CONbits `VES86  1 e 1 @1564 ]
+"5770
+[v _ADGO ADGO `VEb  1 e 0 @1257 ]
+"22 D:\laboratoare X\Pic12fl1501\Aprinde_led.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"26
+[v main@i i `uc  1 a 1 3 ]
+"60
+} 0
+"78
+[v _init_adc init_adc `(v  1 e 0 0 ]
+{
+"89
+} 0
+"62
+[v _init_pwm init_pwm `(v  1 e 0 0 ]
+{
+"76
+} 0

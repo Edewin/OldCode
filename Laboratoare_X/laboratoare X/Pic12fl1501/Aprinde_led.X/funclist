@@ -1,0 +1,5 @@
+_main: CODE, 992 0 30
+__initialization: CODE, 1022 0 0
+_init_adc: CODE, 967 0 25
+_init_pwm: CODE, 944 0 23
+Total: 78

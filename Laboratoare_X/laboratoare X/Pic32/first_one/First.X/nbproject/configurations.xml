@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="fframework" displayName="framework" projectFiles="true">
+        <logicalFolder name="fdriver" displayName="driver" projectFiles="true">
+          <logicalFolder name="fspi" displayName="spi" projectFiles="true">
+            <logicalFolder name="fsrc" displayName="src" projectFiles="true">
+              <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\spi\src\drv_spi_local.h</itemPath>
+              <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\spi\src\drv_spi_variant_mapping.h</itemPath>
+            </logicalFolder>
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\spi\drv_spi.h</itemPath>
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\spi\drv_spi_mapping.h</itemPath>
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\spi\drv_spi_static.h</itemPath>
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\spi\drv_spi_static_multi.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="ftmr" displayName="tmr" projectFiles="true">
+            <logicalFolder name="fsrc" displayName="src" projectFiles="true">
+              <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\tmr\src\drv_tmr_local.h</itemPath>
+              <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\tmr\src\drv_tmr_variant_mapping.h</itemPath>
+            </logicalFolder>
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\tmr\drv_tmr.h</itemPath>
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\tmr\drv_tmr_mapping.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="fperipheral" displayName="peripheral" projectFiles="true">
+          <logicalFolder name="fadc" displayName="adc" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\adc\plib_adc.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fadcp" displayName="adcp" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\adcp\plib_adcp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fbmx" displayName="bmx" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\bmx\plib_bmx.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fcan" displayName="can" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\can\plib_can.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fcmp" displayName="cmp" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\cmp\plib_cmp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fdevcon" displayName="devcon" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\devcon\plib_devcon.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fdma" displayName="dma" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\dma\plib_dma.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fdmt" displayName="dmt" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\dmt\plib_dmt.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="febi" displayName="ebi" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\ebi\plib_ebi.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="feth" displayName="eth" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\eth\plib_eth.h</itemPath>
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\eth\src\plib_eth_legacy.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fi2c" displayName="i2c" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\i2c\plib_i2c.h</itemPath>
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\i2c\plib_i2c_helper_macros.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fic" displayName="ic" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\ic\plib_ic.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fint" displayName="int" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\int\plib_int.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fnvm" displayName="nvm" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\nvm\plib_nvm.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="foc" displayName="oc" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\oc\plib_oc.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fosc" displayName="osc" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\osc\plib_osc.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fpcache" displayName="pcache" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\pcache\plib_pcache.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fpmp" displayName="pmp" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\pmp\plib_pmp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fports" displayName="ports" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\ports\plib_ports.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fpower" displayName="power" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\power\plib_power.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="freset" displayName="reset" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\reset\plib_reset.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="frtcc" displayName="rtcc" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\rtcc\plib_rtcc.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fsb" displayName="sb" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\sb\plib_sb.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fspi" displayName="spi" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\spi\plib_spi.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fsqi" displayName="sqi" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\sqi\plib_sqi.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="ftmr" displayName="tmr" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\tmr\plib_tmr.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fusart" displayName="usart" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\usart\plib_usart.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fusb" displayName="usb" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\usb\plib_usb.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fusbhs" displayName="usbhs" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\usbhs\plib_usbhs.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fwdt" displayName="wdt" projectFiles="true">
+            <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\wdt\plib_wdt.h</itemPath>
+          </logicalFolder>
+          <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\peripheral.h</itemPath>
+          <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\peripheral_common.h</itemPath>
+          <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\peripheral\peripheral_common_32bit.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="fframework" displayName="framework" projectFiles="true">
+        <logicalFolder name="fdriver" displayName="driver" projectFiles="true">
+          <logicalFolder name="fspi" displayName="spi" projectFiles="true">
+            <logicalFolder name="fsrc" displayName="src" projectFiles="true">
+              <logicalFolder name="fdynamic" displayName="dynamic" projectFiles="true">
+                <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\spi\src\dynamic\drv_spi_dynamic.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="ftmr" displayName="tmr" projectFiles="true">
+            <logicalFolder name="fsrc" displayName="src" projectFiles="true">
+              <logicalFolder name="fdynamic" displayName="dynamic" projectFiles="true">
+                <itemPath>..\..\..\..\microchip\harmony\v0_70_01b\framework\driver\tmr\src\dynamic\drv_tmr_dynamic.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>first_32.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC32MX220F032B</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>1.31</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>..\..\..\..\microchip\harmony\v0_70_01b\bin\framework\peripheral\PIC32MX220F032B_peripherals.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="extra-include-directories"
+                  value=".;..\..\..\..\microchip\harmony\v0_70_01b\framework;..\..\..\..\microchip\harmony\v0_70_01b\framework\system"/>
+      </C32>
+      <C32-AS>
+      </C32-AS>
+      <C32-LD>
+      </C32-LD>
+      <C32CPP>
+      </C32CPP>
+      <C32Global>
+      </C32Global>
+      <PICkit3PlatformTool>
+      </PICkit3PlatformTool>
+    </conf>
+  </confs>
+</configurationDescriptor>

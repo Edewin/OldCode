@@ -1,0 +1,11 @@
+___awdiv: CODE, 1670 0 83
+_init: CODE, 1508 0 13
+_init_eccp: CODE, 1614 0 27
+_delay_us: CODE, 1541 0 22
+_main: CODE, 1753 0 292
+_delay_nr: CODE, 1588 0 26
+__initialization: CODE, 2045 0 0
+_init_adc: CODE, 1563 0 25
+_read_ad: CODE, 1521 0 20
+___wmul: CODE, 1641 0 29
+Total: 537
