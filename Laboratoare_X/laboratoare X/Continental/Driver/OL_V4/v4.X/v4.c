@@ -132,7 +132,8 @@ void __attribute__((interrupt, no_auto_psv)) _CNInterrupt (void)
  */
 void __attribute__((interrupt,no_auto_psv)) _SPI1Interrupt(void)
 {
-    PDC1=SPI1BUF;
+   // PDC1=SPI1BUF;
+    PDC1 = 200;
     PDC2=PDC1;
     PDC3=PDC1;
     Flags.SPI=1;
@@ -166,7 +167,7 @@ void __attribute__((interrupt, no_auto_psv)) _ADCInterrupt (void)
 	//if (Flags.RunMotor)
 	//{
 	//	PDC1 = ADCBUF0 >> 1;					// get value ...
-                PDC1= 120;
+                PDC1= 200;
                 PDC2 = PDC1;					// and load all three PWMs ...
 		PDC3 = PDC1;					// duty cycles
 		Flags.SndSpeed = 1;			// send speed info serially
@@ -229,7 +230,7 @@ int main(void)
 		5. Manual check of Conversion complete
 
 *********************************************************************/
-/*void InitADC10(void)
+void InitADC10(void)
 {
 
  ADPCFG = 0xFFF8;				// all PORTB = Digital;RB0 to RB2 = analog
@@ -243,7 +244,7 @@ int main(void)
 
  ADCON1bits.ADON = 1;			// turn ADC ON
 }
-*/
+
 /********************************************************************
 InitMCPWM, intializes the PWM as follows:
 1. FPWM = 16000 hz
