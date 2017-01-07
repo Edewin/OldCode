@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration device="PIC16F1503" mcc_version="v2.0.1">
+    <managers>
+        <manager generated="true" name="Pin Manager" reloadPin="manual">
+            <setting name="NCO1SEL" option="RC1"/>
+            <setting name="SDOSEL" option="RC2"/>
+            <setting name="SSSEL" option="RC3"/>
+            <setting name="CLC1SEL" option="RA2"/>
+            <setting name="T1GSEL" option="RA4"/>
+            <setting name="package" option="PDIP14"/>
+            <setting name="sorting" option="true"/>
+            <resource customName="PWM3" digital="true" direction="OUTPUT" function="PWM3" ioc="0" module="PWM3" name="RA2" start="false" type="pin" wpu="false"/>
+            <resource customName="PWM4" digital="true" direction="OUTPUT" function="PWM4" module="PWM4" name="RC1" start="false" type="pin" wpu="false"/>
+            <file checksum="2987032182" modified="false" name="pin_manager.c" path="mcc_generated_files/pin_manager.c"/>
+            <file checksum="1021286760" modified="false" name="pin_manager.h" path="mcc_generated_files/pin_manager.h"/>
+        </manager>
+        <manager generated="true" name="System" reloadPin="manual">
+            <initializer comment="" name="Initialize">
+                <setting name="SCS" option="INTOSC"/>
+                <setting name="IRCF" option="16MHz_HF"/>
+                <setting name="HFIOFR" option="disabled"/>
+                <setting name="HFIOFS" option="not0.5percent_acc"/>
+                <setting name="LFIOFR" option="disabled"/>
+                <additionalSetting name="pllMultiplier" option=""/>
+                <additionalSetting name="extclk" option="1.0 MHz"/>
+            </initializer>
+            <setting name="BOREN" option="ON"/>
+            <setting name="PWRTE" option="OFF"/>
+            <setting name="FOSC" option="INTOSC"/>
+            <setting name="MCLRE" option="ON"/>
+            <setting name="CP" option="OFF"/>
+            <setting name="WDTE" option="OFF"/>
+            <setting name="CLKOUTEN" option="OFF"/>
+            <setting name="WRT" option="OFF"/>
+            <setting name="LPBOR" option="OFF"/>
+            <setting name="LVP" option="OFF"/>
+            <setting name="STVREN" option="ON"/>
+            <setting name="BORV" option="LO"/>
+            <setting name="generateConfigBits" option="true"/>
+            <file checksum="486493910" modified="false" name="mcc.c" path="mcc_generated_files/mcc.c"/>
+            <file checksum="3522037398" modified="false" name="mcc.h" path="mcc_generated_files/mcc.h"/>
+        </manager>
+    </managers>
+    <modules>
+        <module generated="true" mode="Memory" name="MEMORY" order="0" reloadPin="manual" type="nvm">
+            <file checksum="1447762214" modified="false" name="memory.c" path="mcc_generated_files/memory.c"/>
+            <file checksum="1305734518" modified="false" name="memory.h" path="mcc_generated_files/memory.h"/>
+        </module>
+        <module generated="true" mode="Timer" name="TMR2" order="1" reloadPin="manual" type="tmr_2">
+            <initializer comment="" name="Initialize">
+                <setting name="TMR2ON" option="off"/>
+                <setting name="T2CKPS" option="1:1"/>
+                <setting name="T2OUTPS" option="1:1"/>
+                <setting name="PR2" option="255"/>
+                <setting name="TMR2" option="0x0"/>
+                <additionalSetting name="T2CKPS" option="1:1"/>
+                <additionalSetting name="timerstart" option="enabled"/>
+                <additionalSetting name="maxPeriodChanged" option="63.75 us"/>
+                <additionalSetting name="minPeriodChanged" option="0.0 ns"/>
+                <additionalSetting name="period" option="63.75 us"/>
+            </initializer>
+            <setting name="TMRI" option="false"/>
+            <setting name="ticker" option="0"/>
+            <file checksum="687957373" modified="false" name="tmr2.c" path="mcc_generated_files/tmr2.c"/>
+            <file checksum="1480242314" modified="false" name="tmr2.h" path="mcc_generated_files/tmr2.h"/>
+        </module>
+        <module generated="true" mode="PWM" name="PWM4" order="2" reloadPin="manual" type="pwm_10bit">
+            <initializer comment="" name="Initialize">
+                <setting name="PWM4POL" option="active_hi"/>
+                <setting name="PWM4OE" option="enabled"/>
+                <setting name="PWM4EN" option="enabled"/>
+                <setting name="PWM4DCH" option="127"/>
+                <setting name="PWM4DCL" option="48"/>
+                <additionalSetting name="ccpr" option="511"/>
+                <additionalSetting name="pwmperiod" option="63.7500 us"/>
+                <additionalSetting name="duty" option="50"/>
+                <additionalSetting name="freq" option="15.6863 kHz"/>
+                <additionalSetting name="timerselpresence" option="timerselabsent"/>
+                <additionalSetting name="resolution" option="10"/>
+                <additionalSetting name="P4TSEL" option="PWM4timer2"/>
+            </initializer>
+            <resource customName="PWM4" digital="true" direction="OUTPUT" function="PWM4" module="PWM4" name="RC1" start="false" type="pin" wpu="false"/>
+            <file checksum="1760759325" modified="false" name="pwm4.c" path="mcc_generated_files/pwm4.c"/>
+            <file checksum="2090910398" modified="false" name="pwm4.h" path="mcc_generated_files/pwm4.h"/>
+        </module>
+        <module generated="true" mode="PWM" name="PWM3" order="3" reloadPin="manual" type="pwm_10bit">
+            <initializer comment="" name="Initialize">
+                <setting name="PWM3OE" option="enabled"/>
+                <setting name="PWM3EN" option="enabled"/>
+                <setting name="PWM3POL" option="active_hi"/>
+                <setting name="PWM3DCH" option="127"/>
+                <setting name="PWM3DCL" option="48"/>
+                <additionalSetting name="ccpr" option="511"/>
+                <additionalSetting name="pwmperiod" option="63.7500 us"/>
+                <additionalSetting name="duty" option="50"/>
+                <additionalSetting name="freq" option="15.6863 kHz"/>
+                <additionalSetting name="timerselpresence" option="timerselabsent"/>
+                <additionalSetting name="resolution" option="10"/>
+                <additionalSetting name="P3TSEL" option="PWM3timer2"/>
+            </initializer>
+            <resource customName="PWM3" digital="true" direction="OUTPUT" function="PWM3" ioc="0" module="PWM3" name="RA2" start="false" type="pin" wpu="false"/>
+            <file checksum="569773579" modified="false" name="pwm3.c" path="mcc_generated_files/pwm3.c"/>
+            <file checksum="702399149" modified="false" name="pwm3.h" path="mcc_generated_files/pwm3.h"/>
+        </module>
+    </modules>
+</configuration>

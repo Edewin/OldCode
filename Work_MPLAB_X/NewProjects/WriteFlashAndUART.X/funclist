@@ -1,0 +1,20 @@
+_FLASH_EraseBlock: CODE, 1460 0 28
+_PIN_MANAGER_Initialize: CODE, 1362 0 23
+_FLASH_ReadWord: CODE, 1433 0 27
+_TMR2_Initialize: CODE, 1344 0 8
+_PWM3_Initialize: CODE, 1328 0 8
+___awmod: CODE, 1671 0 72
+_PWM4_Initialize: CODE, 1336 0 8
+_main: CODE, 1834 0 205
+_FLASH_WriteBlock: CODE, 1743 0 91
+___lmul: CODE, 1488 0 47
+__initialization: CODE, 2039 0 6
+_srand: CODE, 1352 0 10
+_OSCILLATOR_Initialize: CODE, 1317 0 5
+_SYSTEM_Initialize: CODE, 1322 0 6
+_rand: CODE, 1601 0 70
+_TMR2_StartTimer: CODE, 1314 0 3
+_FLASH_WriteWord: CODE, 1535 0 66
+_PWM3_LoadDutyValue: CODE, 1385 0 24
+_PWM4_LoadDutyValue: CODE, 1409 0 24
+Total: 731

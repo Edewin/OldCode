@@ -1,0 +1,16 @@
+_PIN_MANAGER_Initialize: CODE, 1520 0 51
+_TMR2_LoadPeriodRegister: CODE, 1414 0 5
+_TMR2_Initialize: CODE, 1432 0 9
+_PWM3_Initialize: CODE, 1441 0 11
+___ftpack: CODE, 1644 0 96
+_main: CODE, 1571 0 73
+__initialization: CODE, 2044 0 0
+___lbtoft: CODE, 1464 0 26
+_OSCILLATOR_Initialize: CODE, 1424 0 8
+_SYSTEM_Initialize: CODE, 1452 0 12
+_TMR2_WriteTimer: CODE, 1419 0 5
+_TMR2_StartTimer: CODE, 1411 0 3
+_Delay: CODE, 1490 0 30
+___fttol: CODE, 1740 0 135
+___ftdiv: CODE, 1875 0 169
+Total: 633

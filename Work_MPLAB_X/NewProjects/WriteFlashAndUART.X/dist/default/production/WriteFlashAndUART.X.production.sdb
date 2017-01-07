@@ -1,0 +1,385 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1503 ]
+[d frameptr 6 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"33 D:\Program Files\Microchip\xc8\v1.32\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.32\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"42 D:\Program Files\Microchip\xc8\v1.32\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 D:\Program Files\Microchip\xc8\v1.32\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 D:\Program Files\Microchip\xc8\v1.32\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.32\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"18 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 D:\Program Files\Microchip\xc8\v1.32\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 D:\Program Files\Microchip\xc8\v1.32\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 D:\Program Files\Microchip\xc8\v1.32\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 D:\Program Files\Microchip\xc8\v1.32\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 D:\Program Files\Microchip\xc8\v1.32\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"7 D:\Program Files\Microchip\xc8\v1.32\sources\common\rand.c
+[v _srand srand `(v  1 e 0 0 ]
+"13
+[v _rand rand `(i  1 e 2 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.32\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.32\sources\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.32\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"49 D:\Program Files\Microchip\xc8\v1.32\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"59 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"67 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+"77
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 0 0 ]
+"58 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(ui  1 e 2 0 ]
+"75
+[v _FLASH_WriteWord FLASH_WriteWord `(v  1 e 0 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"148
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 0 0 ]
+"50 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 0 0 ]
+"64 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 0 0 ]
+"78
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 0 0 ]
+"64 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/pwm4.c
+[v _PWM4_Initialize PWM4_Initialize `(v  1 e 0 0 ]
+"78
+[v _PWM4_LoadDutyValue PWM4_LoadDutyValue `(v  1 e 0 0 ]
+"58 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 0 0 ]
+"78
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 0 0 ]
+"84
+[v _TMR2_StopTimer TMR2_StopTimer `(v  1 e 0 0 ]
+"90
+[v _TMR2_ReadTimer TMR2_ReadTimer `(uc  1 e 1 0 ]
+"99
+[v _TMR2_WriteTimer TMR2_WriteTimer `(v  1 e 0 0 ]
+"105
+[v _TMR2_LoadPeriodRegister TMR2_LoadPeriodRegister `(v  1 e 0 0 ]
+"110
+[v _TMR2_HasOverflowOccured TMR2_HasOverflowOccured `(uc  1 e 1 0 ]
+[s S105 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"358 D:\Program Files\Microchip\xc8\v1.32\include\pic16f1503.h
+[s S114 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S119 . 1 `S105 1 . 1 0 `S114 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES119  1 e 1 @11 ]
+[s S34 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"526
+[u S42 . 1 `S34 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES42  1 e 1 @17 ]
+"822
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"841
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"860
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S57 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"881
+[s S61 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S69 . 1 `S57 1 . 1 0 `S61 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES69  1 e 1 @28 ]
+"930
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"979
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S218 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1160
+[s S225 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S232 . 1 `S218 1 . 1 0 `S225 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES232  1 e 1 @149 ]
+"1333
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1398
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @154 ]
+"1646
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"1690
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2216
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"2260
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2306
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"2357
+[v _PMADRL PMADRL `VEuc  1 e 1 @401 ]
+"2376
+[v _PMADRH PMADRH `VEuc  1 e 1 @402 ]
+"2401
+[v _PMDATL PMDATL `VEuc  1 e 1 @403 ]
+"2420
+[v _PMDATH PMDATH `VEuc  1 e 1 @404 ]
+[s S139 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+]
+"2455
+[u S147 . 1 `S139 1 . 1 0 ]
+[v _PMCON1bits PMCON1bits `VES147  1 e 1 @405 ]
+"2494
+[v _PMCON2 PMCON2 `VEuc  1 e 1 @406 ]
+"2533
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"4234
+[v _PWM3DCL PWM3DCL `VEuc  1 e 1 @1559 ]
+"4269
+[v _PWM3DCH PWM3DCH `VEuc  1 e 1 @1560 ]
+"4338
+[v _PWM3CON PWM3CON `VEuc  1 e 1 @1561 ]
+"4413
+[v _PWM4DCL PWM4DCL `VEuc  1 e 1 @1562 ]
+"4448
+[v _PWM4DCH PWM4DCH `VEuc  1 e 1 @1563 ]
+"4517
+[v _PWM4CON PWM4CON `VEuc  1 e 1 @1564 ]
+"3 D:\Program Files\Microchip\xc8\v1.32\sources\common\rand.c
+[v _randx randx `l  1 s 4 randx ]
+"4
+[v _randf randf `uc  1 s 1 randf ]
+"59 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"64
+[v main@Rbuf Rbuf `[32]ui  1 a 64 15 ]
+"68
+[v main@dutyCycleP4 dutyCycleP4 `ui  1 a 2 6 ]
+"67
+[v main@dutyCycleP3 dutyCycleP3 `ui  1 a 2 4 ]
+"63
+[v main@faddrPWM4 faddrPWM4 `ui  1 a 2 2 ]
+"62
+[v main@faddrPWM3 faddrPWM3 `ui  1 a 2 0 ]
+"65
+[v main@pRbuf pRbuf `*.4ui  1 a 1 79 ]
+"126
+} 0
+"13 D:\Program Files\Microchip\xc8\v1.32\sources\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+{
+"18
+} 0
+"7
+[v _srand srand `(v  1 e 0 0 ]
+{
+[v srand@x x `ui  1 p 2 0 ]
+"11
+} 0
+"15 D:\Program Files\Microchip\xc8\v1.32\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 11 ]
+[v ___awmod@counter counter `uc  1 a 1 10 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 5 ]
+[v ___awmod@dividend dividend `i  1 p 2 7 ]
+"35
+} 0
+"67 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+{
+"74
+} 0
+"58 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 0 0 ]
+{
+"76
+} 0
+"78
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 0 0 ]
+{
+"82
+} 0
+"64 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/pwm4.c
+[v _PWM4_Initialize PWM4_Initialize `(v  1 e 0 0 ]
+{
+"76
+} 0
+"64 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 0 0 ]
+{
+"76
+} 0
+"50 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 0 0 ]
+{
+"64
+} 0
+"77 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 0 0 ]
+{
+"85
+} 0
+"78 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/pwm4.c
+[v _PWM4_LoadDutyValue PWM4_LoadDutyValue `(v  1 e 0 0 ]
+{
+[v PWM4_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 0 ]
+"85
+} 0
+"78 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/pwm3.c
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 0 0 ]
+{
+[v PWM3_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 0 ]
+"85
+} 0
+"75 E:\Work_MPLAB_X\NewProjects\WriteFlashAndUART.X\mcc_generated_files/memory.c
+[v _FLASH_WriteWord FLASH_WriteWord `(v  1 e 0 0 ]
+{
+"77
+[v FLASH_WriteWord@blockStartAddr blockStartAddr `ui  1 a 2 6 ]
+"79
+[v FLASH_WriteWord@i i `uc  1 a 1 8 ]
+"78
+[v FLASH_WriteWord@offset offset `uc  1 a 1 5 ]
+"75
+[v FLASH_WriteWord@flashAddr flashAddr `ui  1 p 2 0 ]
+[v FLASH_WriteWord@ramBuf ramBuf `*.4ui  1 p 1 2 ]
+[v FLASH_WriteWord@word word `ui  1 p 2 3 ]
+"92
+} 0
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+{
+"96
+[v FLASH_WriteBlock@blockStartAddr blockStartAddr `ui  1 a 2 9 ]
+"98
+[v FLASH_WriteBlock@i i `uc  1 a 1 12 ]
+"97
+[v FLASH_WriteBlock@GIEBitValue GIEBitValue `uc  1 a 1 11 ]
+"94
+[v FLASH_WriteBlock@writeAddr writeAddr `ui  1 p 2 3 ]
+[v FLASH_WriteBlock@flashWordArray flashWordArray `*.4ui  1 p 1 5 ]
+"146
+} 0
+"148
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 0 0 ]
+{
+"150
+[v FLASH_EraseBlock@GIEBitValue GIEBitValue `uc  1 a 1 2 ]
+"148
+[v FLASH_EraseBlock@startAddr startAddr `ui  1 p 2 0 ]
+"173
+} 0
+"58
+[v _FLASH_ReadWord FLASH_ReadWord `(ui  1 e 2 0 ]
+{
+"60
+[v FLASH_ReadWord@GIEBitValue GIEBitValue `uc  1 a 1 2 ]
+"58
+[v FLASH_ReadWord@flashAddr flashAddr `ui  1 p 2 0 ]
+"73
+} 0

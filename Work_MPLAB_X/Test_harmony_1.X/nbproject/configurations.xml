@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="fapp" displayName="app" projectFiles="true">
+        <logicalFolder name="fsystem_config"
+                       displayName="system_config"
+                       projectFiles="true">
+          <itemPath>D:/Work_MPLAB_X/Test_harmony_1.X/system_config.h</itemPath>
+        </logicalFolder>
+        <itemPath>D:/Work_MPLAB_X/Test_harmony_1.X/app.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="fframework" displayName="framework" projectFiles="true">
+        <logicalFolder name="fperipheral" displayName="peripheral" projectFiles="true">
+          <logicalFolder name="fadc" displayName="adc" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/adc/plib_adc.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fadcp" displayName="adcp" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/adcp/plib_adcp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fbmx" displayName="bmx" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/bmx/plib_bmx.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fcan" displayName="can" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/can/plib_can.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fcmp" displayName="cmp" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/cmp/plib_cmp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fdevcon" displayName="devcon" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/devcon/plib_devcon.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fdma" displayName="dma" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/dma/plib_dma.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fdmt" displayName="dmt" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/dmt/plib_dmt.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="febi" displayName="ebi" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/ebi/plib_ebi.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="feth" displayName="eth" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/eth/plib_eth.h</itemPath>
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/eth/src/plib_eth_legacy.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fi2c" displayName="i2c" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/i2c/plib_i2c.h</itemPath>
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/i2c/plib_i2c_helper_macros.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fic" displayName="ic" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/ic/plib_ic.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fint" displayName="int" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/int/plib_int.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fnvm" displayName="nvm" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/nvm/plib_nvm.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="foc" displayName="oc" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/oc/plib_oc.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fosc" displayName="osc" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/osc/plib_osc.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fpcache" displayName="pcache" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/pcache/plib_pcache.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fpmp" displayName="pmp" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/pmp/plib_pmp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fports" displayName="ports" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/ports/plib_ports.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fpower" displayName="power" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/power/plib_power.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="freset" displayName="reset" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/reset/plib_reset.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="frtcc" displayName="rtcc" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/rtcc/plib_rtcc.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fsb" displayName="sb" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/sb/plib_sb.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fspi" displayName="spi" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/spi/plib_spi.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fsqi" displayName="sqi" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/sqi/plib_sqi.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="ftmr" displayName="tmr" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/tmr/plib_tmr.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fusart" displayName="usart" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/usart/plib_usart.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fusb" displayName="usb" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/usb/plib_usb.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fusbhs" displayName="usbhs" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/usbhs/plib_usbhs.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="fwdt" displayName="wdt" projectFiles="true">
+            <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/wdt/plib_wdt.h</itemPath>
+          </logicalFolder>
+          <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/peripheral.h</itemPath>
+          <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/peripheral_common.h</itemPath>
+          <itemPath>C:/microchip/harmony/v0_80_02b\/framework/peripheral/peripheral_common_32bit.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="fapp" displayName="app" projectFiles="true">
+        <logicalFolder name="fsystem_config"
+                       displayName="system_config"
+                       projectFiles="true">
+          <itemPath>D:/Work_MPLAB_X/Test_harmony_1.X/system_config.c</itemPath>
+          <itemPath>D:/Work_MPLAB_X/Test_harmony_1.X/system_init.c</itemPath>
+          <itemPath>D:/Work_MPLAB_X/Test_harmony_1.X/system_interrupt.c</itemPath>
+          <itemPath>D:/Work_MPLAB_X/Test_harmony_1.X/system_tasks.c</itemPath>
+        </logicalFolder>
+        <itemPath>D:/Work_MPLAB_X/Test_harmony_1.X/main.c</itemPath>
+        <itemPath>D:/Work_MPLAB_X/Test_harmony_1.X/app.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC32MX320F128H</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>1.33</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>C:\microchip\harmony\v0_80_02b\bin\framework\peripheral\PIC32MX320F128H_peripherals.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="additional-warnings" value="false"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value=".;C:\microchip\harmony\v0_80_02b\framework\peripheral;C:\microchip\harmony\v0_80_02b\framework\driver;C:\microchip\harmony\v0_80_02b\bsp;C:\microchip\harmony\v0_80_02b\framework;C:\microchip\harmony\v0_80_02b\framework\system"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
+      <C32-AS>
+      </C32-AS>
+      <C32-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="heap-size" value=""/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="oXC32ld-extra-opts" value=""/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="stack-size" value=""/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="true"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32CPP>
+      <C32Global>
+        <property key="common-include-directories" value=""/>
+        <property key="gp-relative-option" value=""/>
+        <property key="legacy-libc" value="false"/>
+        <property key="save-temps" value="false"/>
+        <property key="wpo-lto" value="false"/>
+      </C32Global>
+      <PICkit3PlatformTool>
+      </PICkit3PlatformTool>
+    </conf>
+  </confs>
+</configurationDescriptor>

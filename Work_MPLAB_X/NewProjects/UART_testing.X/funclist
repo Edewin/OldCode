@@ -1,0 +1,12 @@
+_PIN_MANAGER_Initialize: CODE, 1933 0 54
+__stringdata: STRCODE, 2048 0 48
+_putch: CODE, 1854 0 5
+_EUSART_Read: CODE, 1882 0 10
+_EUSART_Write: CODE, 1865 0 8
+_main: CODE, 1987 0 57
+_EUSART_Initialize: CODE, 1892 0 14
+__initialization: CODE, 2044 0 0
+_OSCILLATOR_Initialize: CODE, 1859 0 6
+_SYSTEM_Initialize: CODE, 1873 0 9
+_printf: CODE, 1906 0 27
+Total: 238

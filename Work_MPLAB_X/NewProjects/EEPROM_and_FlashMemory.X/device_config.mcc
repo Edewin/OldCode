@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration device="PIC12F1840" mcc_version="v2.10">
+    <managers>
+        <manager generated="true" name="Pin Manager" reloadPin="manual">
+            <setting name="TXCKSEL" option="RA0"/>
+            <setting name="RXDTSEL" option="RA1"/>
+            <setting name="CCP1SEL" option="RA2"/>
+            <setting name="SDOSEL" option="RA0"/>
+            <setting name="P1BSEL" option="RA0"/>
+            <setting name="SSSEL" option="RA3"/>
+            <setting name="T1GSEL" option="RA4"/>
+            <setting name="package" option="PDIP8"/>
+            <setting name="sorting" option="true"/>
+            <resource customName="TX" digital="true" direction="INPUT" function="TX" ioc="0" module="EUSART" name="RA0" start="false" type="pin" wpu="false"/>
+            <resource customName="RX" digital="true" direction="INPUT" function="RX" ioc="0" module="EUSART" name="RA1" start="false" type="pin" wpu="false"/>
+            <file checksum="3792663268" modified="false" name="pin_manager.c" path="mcc_generated_files/pin_manager.c"/>
+            <file checksum="4292705781" modified="false" name="pin_manager.h" path="mcc_generated_files/pin_manager.h"/>
+        </manager>
+        <manager generated="true" name="System" reloadPin="manual">
+            <initializer comment="" name="Initialize">
+                <setting name="SPLLEN" option="disabled" register="OSCCON"/>
+                <setting name="SCS" option="INTOSC" register="OSCCON"/>
+                <setting name="IRCF" option="16MHz_HF" register="OSCCON"/>
+                <setting name="OSTS" option="intosc" register="OSCSTAT"/>
+                <setting name="HFIOFR" option="disabled" register="OSCSTAT"/>
+                <setting name="HFIOFS" option="not0.5percent_acc" register="OSCSTAT"/>
+                <setting name="PLLR" option="disabled" register="OSCSTAT"/>
+                <setting name="MFIOFR" option="disabled" register="OSCSTAT"/>
+                <setting name="T1OSCR" option="disabled" register="OSCSTAT"/>
+                <setting name="LFIOFR" option="disabled" register="OSCSTAT"/>
+                <setting name="HFIOFL" option="not2percent_acc" register="OSCSTAT"/>
+                <setting name="TUN" option="0x0" register="OSCTUNE"/>
+                <additionalSetting name="pllMultiplier" option=""/>
+                <additionalSetting name="extclk" option="1.0 MHz"/>
+            </initializer>
+            <setting name="IESO" option="ON"/>
+            <setting name="BOREN" option="ON"/>
+            <setting name="PWRTE" option="OFF"/>
+            <setting name="FOSC" option="INTOSC"/>
+            <setting name="FCMEN" option="ON"/>
+            <setting name="MCLRE" option="ON"/>
+            <setting name="CP" option="OFF"/>
+            <setting name="CPD" option="OFF"/>
+            <setting name="WDTE" option="OFF"/>
+            <setting name="CLKOUTEN" option="OFF"/>
+            <setting name="WRT" option="OFF"/>
+            <setting name="LVP" option="OFF"/>
+            <setting name="STVREN" option="ON"/>
+            <setting name="PLLEN" option="ON"/>
+            <setting name="BORV" option="LO"/>
+            <setting name="generateConfigBits" option="true"/>
+            <file checksum="2095826446" modified="false" name="mcc.c" path="mcc_generated_files/mcc.c"/>
+            <file checksum="2728135284" modified="false" name="mcc.h" path="mcc_generated_files/mcc.h"/>
+        </manager>
+    </managers>
+    <modules>
+        <module generated="true" mode="Memory" name="MEMORY" order="0" reloadPin="manual" type="nvm">
+            <setting name="useEE" option="true"/>
+            <file checksum="424312110" modified="false" name="memory.c" path="mcc_generated_files/memory.c"/>
+            <file checksum="968173948" modified="false" name="memory.h" path="mcc_generated_files/memory.h"/>
+        </module>
+        <module generated="true" mode="EUSART Asynchronous(NRZ)" name="EUSART" order="1" reloadPin="manual" type="uart_autobd">
+            <initializer comment="" name="Initialize">
+                <setting name="WUE" option="disabled" register="BAUDCON"/>
+                <setting name="ABDEN" option="disabled" register="BAUDCON"/>
+                <setting name="ABDOVF" option="no_overflow" register="BAUDCON"/>
+                <setting name="RCIDL" option="idle" register="BAUDCON"/>
+                <setting name="SCKP" option="async_noninverted_sync_fallingedge" register="BAUDCON"/>
+                <setting name="BRG16" option="16bit_generator" register="BAUDCON"/>
+                <setting name="ADDEN" option="disabled" register="RCSTA"/>
+                <setting name="RX9" option="8-bit" register="RCSTA"/>
+                <setting name="RX9D" option="0x0" register="RCSTA"/>
+                <setting name="CREN" option="disabled" register="RCSTA"/>
+                <setting name="FERR" option="no_error" register="RCSTA"/>
+                <setting name="SPEN" option="enabled" register="RCSTA"/>
+                <setting name="SREN" option="disabled" register="RCSTA"/>
+                <setting name="OERR" option="no_error" register="RCSTA"/>
+                <setting name="CSRC" option="slave_mode" register="TXSTA"/>
+                <setting name="TRMT" option="TSR_empty" register="TXSTA"/>
+                <setting name="TXEN" option="enabled" register="TXSTA"/>
+                <setting name="BRGH" option="hi_speed" register="TXSTA"/>
+                <setting name="SYNC" option="asynchronous" register="TXSTA"/>
+                <setting name="SENDB" option="sync_break_complete" register="TXSTA"/>
+                <setting name="TX9D" option="0x0" register="TXSTA"/>
+                <setting name="TX9" option="8-bit" register="TXSTA"/>
+                <setting name="SPBRGL" option="160" register="SPBRGL"/>
+                <setting name="SPBRGH" option="1" register="SPBRGH"/>
+                <setting name="TXREG" option="0x0" register="TXREG"/>
+                <setting name="RCREG" option="0x0" register="RCREG"/>
+                <additionalSetting name="baudrateString" option="9600"/>
+            </initializer>
+            <setting name="RCI" option="false"/>
+            <setting name="TXI" option="false"/>
+            <setting name="inputBuffer" option="8"/>
+            <setting name="outputBuffer" option="8"/>
+            <setting name="stdio" option="true"/>
+            <file checksum="613589757" modified="false" name="eusart.c" path="mcc_generated_files/eusart.c"/>
+            <file checksum="1038962218" modified="false" name="eusart.h" path="mcc_generated_files/eusart.h"/>
+        </module>
+    </modules>
+</configuration>

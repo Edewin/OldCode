@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration device="PIC16F1704" mcc_version="v2.0.1">
+    <managers>
+        <manager generated="true" name="Pin Manager" reloadPin="manual">
+            <setting name="package" option="DIP14"/>
+            <setting name="sorting" option="true"/>
+            <resource customName="LED" digital="true" direction="OUTPUT" function="RA1" ioc="0" module="GPIO" name="RA1" start="false" type="pin" wpu="false"/>
+            <resource customName="PWM3" digital="true" direction="OUTPUT" function="PWM3OUT" ioc="0" module="PWM3" name="RA2" start="false" type="pin" wpu="false"/>
+            <file checksum="1610334625" modified="false" name="pin_manager.c" path="mcc_generated_files/pin_manager.c"/>
+            <file checksum="446198406" modified="false" name="pin_manager.h" path="mcc_generated_files/pin_manager.h"/>
+        </manager>
+        <manager generated="true" name="System" reloadPin="manual">
+            <initializer comment="" name="Initialize">
+                <setting name="SPLLEN" option="disabled"/>
+                <setting name="SCS" option="FOSC"/>
+                <setting name="IRCF" option="8MHz_HF"/>
+                <setting name="OSTS" option="intosc"/>
+                <setting name="HFIOFR" option="disabled"/>
+                <setting name="HFIOFS" option="not0.5percent_acc"/>
+                <setting name="SOSCR" option="disabled"/>
+                <setting name="PLLR" option="disabled"/>
+                <setting name="MFIOFR" option="disabled"/>
+                <setting name="LFIOFR" option="disabled"/>
+                <setting name="HFIOFL" option="not2percent_acc"/>
+                <setting name="TUN" option="0x0"/>
+                <additionalSetting name="pllMultiplier" option=""/>
+                <additionalSetting name="extclk" option="1.0 MHz"/>
+            </initializer>
+            <setting name="IESO" option="ON"/>
+            <setting name="BOREN" option="ON"/>
+            <setting name="PWRTE" option="OFF"/>
+            <setting name="FOSC" option="INTOSC"/>
+            <setting name="FCMEN" option="ON"/>
+            <setting name="MCLRE" option="ON"/>
+            <setting name="CP" option="OFF"/>
+            <setting name="WDTE" option="OFF"/>
+            <setting name="CLKOUTEN" option="OFF"/>
+            <setting name="WRT" option="OFF"/>
+            <setting name="ZCDDIS" option="ON"/>
+            <setting name="LPBOR" option="OFF"/>
+            <setting name="PPS1WAY" option="ON"/>
+            <setting name="LVP" option="OFF"/>
+            <setting name="STVREN" option="ON"/>
+            <setting name="PLLEN" option="ON"/>
+            <setting name="BORV" option="LO"/>
+            <setting name="generateConfigBits" option="true"/>
+            <file checksum="3781243232" modified="false" name="mcc.c" path="mcc_generated_files/mcc.c"/>
+            <file checksum="778959441" modified="false" name="mcc.h" path="mcc_generated_files/mcc.h"/>
+        </manager>
+    </managers>
+    <modules>
+        <module generated="true" mode="Timer" name="TMR2" order="0" reloadPin="manual" type="tmr_2">
+            <initializer comment="" name="Initialize">
+                <setting name="TMR2ON" option="off"/>
+                <setting name="T2CKPS" option="1:1"/>
+                <setting name="T2OUTPS" option="1:1"/>
+                <setting name="PR2" option="255"/>
+                <setting name="TMR2" option="0x0"/>
+                <additionalSetting name="T2CKPS" option="1:1"/>
+                <additionalSetting name="timerstart" option="enabled"/>
+                <additionalSetting name="maxPeriodChanged" option="31.875 us"/>
+                <additionalSetting name="minPeriodChanged" option="0.0 ns"/>
+                <additionalSetting name="period" option="31.875 us"/>
+            </initializer>
+            <setting name="TMRI" option="false"/>
+            <setting name="ticker" option="0"/>
+            <file checksum="1196254592" modified="false" name="tmr2.c" path="mcc_generated_files/tmr2.c"/>
+            <file checksum="2781459597" modified="false" name="tmr2.h" path="mcc_generated_files/tmr2.h"/>
+        </module>
+        <module generated="true" mode="PWM" name="PWM3" order="1" reloadPin="manual" type="pwm_10bit">
+            <initializer comment="" name="Initialize">
+                <setting name="PWM3EN" option="enabled"/>
+                <setting name="PWM3POL" option="active_hi"/>
+                <setting name="PWM3DCH" option="127"/>
+                <setting name="PWM3DCL" option="48"/>
+                <additionalSetting name="ccpr" option="511"/>
+                <additionalSetting name="pwmperiod" option="31.8750 us"/>
+                <additionalSetting name="duty" option="50"/>
+                <additionalSetting name="freq" option="31.3725 kHz"/>
+                <additionalSetting name="timerselpresence" option="timerselpresent"/>
+                <additionalSetting name="CCPTMRS" option="CCPTMRS"/>
+                <additionalSetting name="resolution" option="10"/>
+                <additionalSetting name="CTSELvalue" option="0x0"/>
+                <additionalSetting name="P3TSEL" option="PWM3timer2"/>
+            </initializer>
+            <resource customName="PWM3" digital="true" direction="OUTPUT" function="PWM3OUT" ioc="0" module="PWM3" name="RA2" start="false" type="pin" wpu="false"/>
+            <file checksum="3165526141" modified="false" name="pwm3.c" path="mcc_generated_files/pwm3.c"/>
+            <file checksum="1255129776" modified="false" name="pwm3.h" path="mcc_generated_files/pwm3.h"/>
+        </module>
+        <module generated="true" mode="GPIO" name="GPIO" order="2" reloadPin="manual" type="GPIO">
+            <resource customName="LED" digital="true" direction="OUTPUT" function="RA1" ioc="0" module="GPIO" name="RA1" start="false" type="pin" wpu="false"/>
+        </module>
+    </modules>
+</configuration>
